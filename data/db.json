@@ -1,0 +1,18 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "filename": "playa.jpg"
+    },
+    {
+      "id": 2,
+      "filename": "chuao.jpg"
+    },
+    {
+      "id": 3,
+      "filename": "schemetterling.jpg"
+    }
+    
+  ]
+ 
+}
