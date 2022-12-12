@@ -8,11 +8,15 @@ import { dirname } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+import photoRouter from "./routes/photoRouter.js"
+
 const server = express()
 
 const port = process.env.PORT;
 
 server.use(express.json())
+
+server.use("/api/photos", photoRouter)
 
 server.use((req, res, next) => {
     console.log(req.method, req.url);
